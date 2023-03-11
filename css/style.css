@@ -57,38 +57,34 @@ ul, header{
   flex: 1;
 }
 
-header{
-  justify-content: space-between;
-}
-
 ul{
   list-style: none;
 }
 
-li{
-  width: 5%;
-  margin-top: 3%;
-}
-
-.nav{
-  flex-grow: 2;
-}
-
-img {
-  width: auto;
+img{
   height: 50px;
-  margin: 20px;
-  float: left;
+  width: auto;
+}
+
+header{
+  justify-content: space-between;
+}
+
+.logo, .login, .nav{
+  display: flex;
+  align-items: center;
 }
 
 .login{
-  display: flex;
-  height: 100%;
+  flex-grow: 2;
+  justify-content: flex-end;
 }
 
-.login a{
-  align-items: center;
+li{
+  width: 100%;
+  border: solid purple 1px;
 }
+
 
 
 /******************************************
