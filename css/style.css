@@ -28,6 +28,7 @@ html {
 
 body{
   width: 100%;
+  background: #ded1bd
 }
 
 
@@ -59,9 +60,10 @@ ul, header{
 
 ul{
   list-style: none;
+  width: 200px;
 }
 
-img{
+.coffeeLogo{
   height: 50px;
   width: auto;
 }
@@ -81,8 +83,72 @@ header{
 }
 
 li{
-  width: 100%;
-  border: solid purple 1px;
+  width: 50px;
+}
+
+.imageContainer1{
+  background-image: url(../images/coffeeBeans.jpg);
+  background-size: cover;
+}
+
+.imageContainer2{
+  background-image: url(../images/blackCoffee.jpg);
+  background-size: cover;
+}
+
+.imageContainer3{
+  background-image: url(../images/coffeeArt.jpg);
+  background-size: cover;
+}
+
+.imageContainer4{
+  background-image: url(../images/rasberryTart.jpeg);
+  background-size: cover;
+}
+
+.textSection1, .textSection2, .textSection3, .textSection4{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+}
+
+.textSection1{
+  background: #563727;
+}
+
+.textSection2{
+  background: #372c2e;
+}
+
+.textSection3{
+  background: #de9e48;
+}
+
+.textSection4{
+  background: #7a431d;
+}
+
+h1, h2, h3, h4 {
+  font-size: 3rem;
+}
+
+p, button {
+  font-size: 1.8rem;
+}
+
+p {
+  padding: 0 75px;
+}
+
+button{
+  background: rgb(0,0,0,0);
+  color: #ffffff;
+  border-radius: 25px;
+  border: solid 1px #ffffff;
 }
 
 
