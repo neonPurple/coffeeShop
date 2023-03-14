@@ -24,11 +24,12 @@
 html {
  width: 100%;
  font-size: 62.5%;
+ font-family: 'Roboto', sans-serif;
 }
 
 body{
   width: 100%;
-  background: #ded1bd
+  /* background: #ded1bd */
 }
 
 
@@ -36,12 +37,12 @@ body{
 /* LAYOUT
 /*******************************************/
 header, header section{
-  border: solid purple 1px;
+  /* border: solid purple 1px; */
   height: 100px;
 }
 
 section {
-  border: solid purple 1px;
+  /* border: solid purple 1px; */
   height: 300px;
 }
 
@@ -60,16 +61,19 @@ ul, header{
 
 ul{
   list-style: none;
-  width: 200px;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .coffeeLogo{
-  height: 50px;
+  height: 60px;
   width: auto;
+  padding: 10px;
 }
 
 header{
-  justify-content: space-between;
+  box-shadow: 0 5px 5px #ded1bd;
+  font-weight: bold;
 }
 
 .logo, .login, .nav{
@@ -81,9 +85,9 @@ header{
   flex-grow: 2;
   justify-content: flex-end;
 }
-
+ 
 li{
-  width: 50px;
+  width: 90px;
 }
 
 .imageContainer1{
@@ -149,8 +153,22 @@ button{
   color: #ffffff;
   border-radius: 25px;
   border: solid 1px #ffffff;
+  padding: 5px;
 }
 
+.socialMedia{
+  height: 50px;
+  font-size: 3rem;
+  text-align: center;
+  color: #6c4a3f;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  text-transform: uppercase;
+}
 
 
 /******************************************
