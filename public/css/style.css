@@ -170,6 +170,14 @@ a{
   text-transform: uppercase;
 }
 
+/*Styles for create.HTML*/
+
+.regForm{
+  border: solid 1px purple;
+  height: 100%;
+  align-items: center;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
